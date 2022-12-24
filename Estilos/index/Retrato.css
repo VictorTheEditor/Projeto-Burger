@@ -1,0 +1,204 @@
+:root{
+
+	--cor01: #F2CB05;
+	--cor02: #F2B705;
+	--cor03: #F29F05;
+	--cor04: #D96704;
+	--cor05: #D90404;
+
+	--font-whitedream: 'whitedream';
+	--font-workmediumitalic: 'workmediumitalic';
+}
+
+body{
+	width: 100%;
+
+	background: #222222 url('../../imagens/Background/BackgroundRetratoPS.png') no-repeat center right;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+/*
+ConteudoPrincipal
+*/
+main{
+	margin-top: 20em;
+	background-color: white;
+	width: 100%;
+}
+
+#cont1 {
+	width: 100%;
+}
+
+.painel{
+    max-width: 750px;
+	padding: 0px 8px 0px 8px;
+}
+
+.text{
+	margin: 10px;
+	margin-bottom: 10px;
+}
+
+.text h2{
+    color: var(--cor02);
+
+	font-size: 2.8em;
+	font-family: var(--font-whitedream);
+
+	text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.829);
+
+    margin-bottom: 1.3em;
+}
+
+.text p{
+    color: black;
+
+    font-family: var(--font-workmediumitalic);
+    font-size: 1.2em;
+
+    text-shadow: 1px 1px 1px rgba(65, 65, 65, 0.541);
+    text-indent: 10px;
+	line-height: 1.7em;
+
+	text-align: justify;
+
+    letter-spacing: 1.8px;
+}
+
+
+
+.painel-img{
+	margin: auto;
+	margin-bottom: 10px;
+	width: 94%;
+    height: 500px;
+	border: 1px solid black;
+	border-radius: 10px 10px 7px 7px;
+}
+
+.iframe{
+	background-color: white;
+    height: 79%;
+    width: 100%;
+	border-radius: 10px 10px 7px 7px;
+}
+
+
+iframe{
+    width: 100%;
+    height: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+
+.botoes{
+	box-shadow: 0px -1px 1px black;
+	background-color: var(--cor03);
+
+	border-radius: 0px 0px 7px 7px;
+	margin-top: 1px;
+
+	width: 100%;
+    height: 20.8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#bt1{
+	background-color: var(--cor01);
+	background: var(--cor01) url('../../imagens/Painel/img01.png') no-repeat ;
+    background-size: contain;
+}
+
+#bt2{
+	background-color: var(--cor03);
+	background: var(--cor03) url('../../imagens/Painel/img02.png') no-repeat ;
+    background-size: contain;
+}
+
+#bt3{
+	background-color: var(--cor04);
+	background: var(--cor04) url('../../imagens/Painel/img03.png') no-repeat ;
+    background-size: contain;
+}
+
+.botoes a{
+	text-align: center;
+    display: inline-block;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.botoes a:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+    padding: 2.5px;
+}
+/*
+Fim do ConteudoPrincipal
+*/
+
+
+
+/*
+ConteudoSecundario
+*/
+.central-2{
+    width: 100%;
+}
+
+
+#cont2{
+    padding: 20px;
+    background: #222222 url('../../imagens/Background/Background2Paisagem.jpg') no-repeat center;
+}
+
+.painel-2{
+    padding: 15px;
+}
+
+.painel-2 h2{
+    color: var(--cor02);
+
+	font-size: 2.6em;
+
+	font-family: var(--font-whitedream);
+
+	text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.829);
+
+	letter-spacing: 3px;
+
+    margin-bottom: 1em;
+}
+
+.painel-2 p{
+    color: white;
+    font-family: var(--font-workmediumitalic);
+
+	text-align: justify;
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+img{
+    display: none;
+}
+/*
+Fim do ConteudoSecundario
+*/
+
+
+
+footer{
+    background-color: var(--cor04);
+}
