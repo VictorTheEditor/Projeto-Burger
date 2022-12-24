@@ -11,7 +11,7 @@
 }
 
 body{
-    width: 100%;
+    width: 100vw;
 	background: #222222 url('../../imagens/Background/BackgroundPaisagemPS.png') no-repeat center right;
 	background-size: cover;
     background-attachment: fixed;
